@@ -3,7 +3,7 @@ import { Container, Heading, Text } from "@chakra-ui/react";
 import NFTGrid from "../components/NFTGrid";
 import { NFT_COLLECTION_ADDRESS } from "../const/addresses";
 import { useContract, useNFTs } from "@thirdweb-dev/react"
-import Filter from "../components/Filter";
+
 
 export default function Buy() {
     const { contract } = useContract(NFT_COLLECTION_ADDRESS);
