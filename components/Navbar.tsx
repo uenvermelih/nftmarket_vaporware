@@ -22,7 +22,7 @@ export function Navbar() {
                     <Link as={NextLink} href="/sell" mx={2.5}>
                         <Text>Sell 💰</Text>
                     </Link>      
-                    <Link as={NextLink} href="/sell" mx={2.5}>
+                    <Link href="https://nft-mint-omlgchpwg-uenvermelih.vercel.app/" mx={2.5}>
                         <Text>Mint ➡️</Text>
                     </Link>          
                 </Flex>
