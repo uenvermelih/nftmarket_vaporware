@@ -19,6 +19,7 @@ export default function Sell() {
             <Heading>Sell NFTs</Heading>
             <Text>Select NFT to sell below</Text>
             {!selectedNFT ? (
+                <>
                 <NFTGrid
                 data={data}
                 isLoading={isLoading}
@@ -26,9 +27,11 @@ export default function Sell() {
                     setSelectedNFT(nft);
                 }}
                 emptyText={"You dont own any NFTs from this collection"}
-                >
+                />
 
-                </NFTGrid>
+                </>
+            
+                
             ) : (
                 <Flex justifyContent={"center"} my={10}>
                     <Card w={"75%"}>
